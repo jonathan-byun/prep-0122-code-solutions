@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+
+
+    }
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    MCU movies
+  </h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg"
+        alt="Doctor strange movie poster">
+        <h3>
+          <b><i>Doctor Strange</i></b>
+        </h3>
+        <p style="color:darkred;">
+          In a long line of Marvel films, Doctor Strange comes with a story about
+          an egotistical doctor humbled into searching for his own path in the
+          mystical arts.
+        </p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg"
+        alt="Spiderman noway home movie poster">
+        <h3 style="color: red;">
+          <b><i>Spider-Man No Way Home</i></b>
+        </h3>
+        <p style="color:blue">
+          The newest release of the Marvel series, Spider-Man No Way Home opens the
+          MCU to the concept of the multiverse and incorporates Sony's Spider-Man
+          movies into the marvel continuum.
+        </p>
+      </div>
+      <div class="column">
+        <img src="http://www.impawards.com/2021/posters/shangchi_and_the_legend_of_the_ten_rings.jpg"
+        alt = "Shang-chi and the Legend of the Ten Rings movie poster">
+        <h3 style="color:brown;">
+          <b><i>Shang-Chi and the Legend of the Ten Rings</i></b>
+        </h3>
+        <p style="color:darkgoldenrod">
+            The first Asian American hero introduced into the MCU, Shang-Chi follows
+            the story of a hero trained as an assassin since birth, searching for peace
+            in his mother's footsteps.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Complete the HTML here -->
+
+</body>
+</html>
